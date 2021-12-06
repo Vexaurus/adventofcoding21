@@ -1,9 +1,9 @@
 if __name__ == '__main__':
-    with open('../tests/sonar_input.txt') as raw:
+    with open('./sonar_input.txt') as raw:
         scans = raw.readlines()
         scans = list(map(int, scans))
 
-    # with open('../tests/testing.txt', 'r') as raw:
+    # with open('./testing.txt', 'r') as raw:
     #     scans = raw.readlines()
     #     scans = list(map(int, scans))
 

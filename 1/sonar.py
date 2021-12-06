@@ -2,7 +2,7 @@
 
 if __name__ == '__main__':
 
-    with open('../tests/sonar_input.txt') as scan:
+    with open('./sonar_input.txt') as scan:
         scans = scan.readlines()
 
     prev, count = 0, -1
